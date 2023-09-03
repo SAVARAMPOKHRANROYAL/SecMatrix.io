@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Recreated WebPage
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .container {
+                height:100px;
+                font-size: larger;
+
+            } 
+            .container1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            }
+            .container1 > div {
+                width: calc(33.33% - 40px); 
+                margin: 20px;
+            }
+            .container2 {
+                height:420px;
+                background-color: black;
+                color: white;
+                padding-top: 5px;
+                padding-left:75px;
+                padding-right:20px;
+            }  
+            .container3 {
+                height:200px;
+                padding-left:20px;
+                padding-right:20px;
+            } 
+            .item {
+                width: 70%;
+                height: 250px;
+                text-align: left;
+            }
+            .item1 {
+                width: 65%;
+                height: 250px;
+                text-align: left;
+            }
+            p {
+                line-height: 1.5;
+            }
+            form {
+                line-height: 1.6;
+            }
+            span {
+                color: red;
+            }
+            #st-box {
+                float:left;
+                width:260px;
+                height:160px;
+                padding-right:15px;
+            }
+            #nd-box {
+                float:left;
+                width:260px;
+                height:160px;
+                padding-left:20px;
+                padding-right:15px;
+                margin-left:20px;
+            }
+            #rd-box {
+                float:left;
+                width:260px;
+                height:160px;
+                padding-left:20px;
+                padding-right:15px;
+            }
+            h1 {
+                background-color: rgb(207, 203, 203);
+            }
+            #fname {
+                width: 95%;
+                height: 30px;
+                margin-bottom: 1%;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                outline: none;
+            }
+            #sub {
+                height: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                background: rgb(232, 9, 9);
+                border: 0 none;
+                cursor: pointer;
+                -webkit-border-radius: 5px;
+                border-radius: 5px; 
+                color: white;
+            }
+            @media (max-width: 768px) {
+            .container, .container1, .container2, .item {
+                width: 100%;
+            }
+
+            #st-box, #nd-box, #rd-box {
+                width: 100%;
+                float: none;
+                margin-left: 0;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <center>
+            <div class="container">
+                <p>
+                    <b>
+                        <h1>Get Instant Boot Camp Pricing</h1>
+                        <h2>Enroll and get live,expert training from anywhere.</h2>
+                    </b>
+                </p>  
+            </div>
+            <div class="container1">
+                <div id="st-box">
+                    <img src=
+                        "static\2.svg"
+                        style="width:120px; height:100px;"><br>
+                        <b>Build your skills</b><br>
+                        Learn how to configure and operate 
+                        a broad range of technical security 
+                        controls.
+                </div>
+                <div id="nd-box">
+                    <img src=
+                        "static\3.svg"
+                        style="width:120px; height:100px;"><br>
+                            <b>Build your skills</b><br>
+                            Learn how to configure and operate 
+                            a broad range of technical security 
+                            controls.<br>
+                </div>
+                 
+                <div id="rd-box">
+                    <img src=
+                        "static\4.svg"
+                        style="width:120px; height:100px;"><br>
+                            <b>Build your skills</b><br>
+                            Learn how to configure and operate 
+                            a broad range of technical security 
+                            controls.<br>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="item">
+                    <b><h3>View the Course Package to access:</h3></b>
+                    <p>
+                        <span>&#10003;</span> Tution details and scholarships  <br>
+                        <span>&#10003;</span> Financing options   <br>
+                        <span>&#10003;</span> Employer Scholarship  <br>                  
+                        <b>Let's meet</b>  <br>
+                        Enter your phone no and email address and we will connect you with the right person
+                    </p>
+                    <form action="course_package.html">   
+                        <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+                        <input type="text" id="fname" name="lname" placeholder="Last Name" required><br>
+                        <input type="text" id="fname" name="email" placeholder="Email Address" required><br>
+                        <input type="text" id="fname" name="phno" placeholder="Phone Number" required><br>
+                        <center><input type="submit" id="sub" value="VIEW COURSE PACKAGE >"></center>
+                    </form>
+                </div>
+            </div>
+            <div class="container3">
+                <div class="item1">
+                    <b><h3>CompTIA Security+ Training Boot Camp What's included:</h3></b>
+                    <div style="color: rgb(114, 112, 112) ;">
+                        100% Satisfaction Guarantee <br><hr>
+                        Exam voucher <br><hr>
+                        Knowledge Transfer Guarantee <br><hr>
+                        Free 90-day Infosec Skills subscription (access to 1,400+ additional courses and labs) <br><hr>
+                        Onsite proctoring of exam <br><hr>
+                        Exam Pass Guarantee <br><hr>
+                        90-day extended access to Boot Camp components, including class recordings <br><hr>
+                        Unlimited practice exam attempts <br><hr>
+                        Pre-study learning path <br><hr><br>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
